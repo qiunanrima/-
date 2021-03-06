@@ -1,35 +1,77 @@
-<!DOCTYPE html>
-<html>
-<head>
 <style>
 body {
-  background-color: lightblue;
+  background-color: lightyellow;
 }
-
 h1 {
-  color: white;
-  text-align: center;
-}
 
-p {
+text-align: center;
+   }
+.menu-list {
+	list-style:none;
+	width:500px;
+	margin:100px auto;
+}
+.menu-list li {
+	display:block;
+}
+.list {
+	list-style:none;
+	margin-left:-50px;
+	width:475px;
+	height:60px;
+	overflow:hidden;
+}
+.list li {
+	width:500px;
+	height:60px;
+	position:relative;
+	animation:myfirst 3s infinite;
+	line-height:60px;
+	text-align:center;
+	font-size:30px;
+	color:#fff;
+}
+@keyframes myfirst {
+	0% {
+	background-color:#4ec7f3;
+	top:0px;
+}
+50% {
+	background-color:#4ec7f3;
+	top:0px;
+}
+100% {
+	background:#42c58a;
+	top:-60px;
+}
+}.font30 {
+	font-size:30px;
+	color:#7d7d7d;
+}
+  p {
   font-family: verdana;
   font-size: 25px;
   color: white;
   text-align: center;
 }
-  @keyframes mymove {
-  from {background-color: orange;}
-  to {background-color: lightblueblue;}
-}
 </style>
-</head>
-<body>
+<ul class="menu-list">
+    <li>
+        <h1>你好，这是Sky domain（天域）</n1>
+    </li>
+    <li>
+        <ul class="list">
+            <li class="one">主要开发对象：AugustBox</li>
+            <li class="two">预计2021/8完成</li>
 
-<h1>你好，这是Sky domain（天域）</h1>
-<p>主要开发对象：AugustBox</p>
 
-</body>
-</html>
-  <title>Sky domain</title>
-</head>
+        </ul>
+    </li>
+    <li>
+    
+    </li>
+  <p> powered by：<a href="https://www.jq22.com/webqd4502">qzuser的css项目</p>
+</ul>
+
+
 
